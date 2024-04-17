@@ -7,10 +7,10 @@ import PatrickImg from "./assets/images/image-patrick.jpg";
 
 export default function App() {
   return (
-    <div className="wrapper min-h-screen flex items-center px-4 py-14 md:py-0 bg-slate-200">
-      <div className="grid md:grid-cols-4 md:grid-row-2 gap-5 md:gap-8 w-full max-w-[1200px] mx-auto">
+    <div className="wrapper min-h-screen flex items-center px-4 py-14 lg:py-0 bg-slate-200">
+      <div className="grid lg:grid-cols-4 lg:grid-row-2 gap-5 lg:gap-8 w-full max-w-[1200px] mx-auto">
         <Card
-          classValues="md:col-span-2 bg-moderate-violet"
+          classValues="lg:col-span-2 bg-moderate-violet"
           img={DanielImg}
           author="Daniel Clifford"
           verified={true}
@@ -49,7 +49,7 @@ export default function App() {
           </p>
         </Card>
         <Card
-          classValues="md:row-start-2 bg-white"
+          classValues="lg:row-start-2 bg-white"
           img={JeanetteImg}
           author="Jeanette Harmond"
           verified={true}
@@ -64,7 +64,7 @@ export default function App() {
           </p>
         </Card>
         <Card
-          classValues="md:row-start-2 md:col-start-2 md:col-span-2 bg-very-dark-blackish-blue"
+          classValues="lg:row-start-2 lg:col-start-2 lg:col-span-2 bg-very-dark-blackish-blue"
           img={PatrickImg}
           author="Patrick Abrams"
           verified={true}
@@ -86,7 +86,7 @@ export default function App() {
           </p>
         </Card>
         <Card
-          classValues="md:col-start-4 md:row-span-2 bg-white"
+          classValues="lg:col-start-4 lg:row-span-2 bg-white"
           img={KiraImg}
           author="Kira Whittle"
           verified={true}
