@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Barlow Semi Condensed";
+}
+
+.bg-moderate-violet {
+  background-color: hsl(263, 55%, 52%);
+}
+
+.bg-very-dark-grayish-blue {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.text-very-dark-grayish-blue {
+  color: hsl(217, 19%, 35%);
+}
+
+.bg-very-dark-blackish-blue {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.text-very-dark-blackish-blue {
+  color: hsl(219, 29%, 14%);
+}
+
+.text-light-gray {
+  color: hsl(0, 0%, 81%);
+}
+
+.text-light-grayish-blue {
+  color: hsl(210, 46%, 95%);
+}
