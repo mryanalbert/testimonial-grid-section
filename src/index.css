@@ -33,3 +33,15 @@
 .text-light-grayish-blue {
   color: hsl(210, 46%, 95%);
 }
+
+.card1 {
+  background-image: url("./assets/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 80% 0%;
+}
+
+@media (max-width: 767px) {
+  .card1 {
+    background-position: 90% 0%;
+  }
+}

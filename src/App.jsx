@@ -10,7 +10,7 @@ export default function App() {
     <div className="wrapper min-h-screen flex items-center px-4 py-14 lg:py-0 bg-slate-200">
       <div className="grid lg:grid-cols-4 lg:grid-row-2 gap-5 lg:gap-8 w-full max-w-[1200px] mx-auto">
         <Card
-          classValues="lg:col-span-2 bg-moderate-violet"
+          classValues={`lg:col-span-2 bg-moderate-violet card1`}
           img={DanielImg}
           author="Daniel Clifford"
           verified={true}
